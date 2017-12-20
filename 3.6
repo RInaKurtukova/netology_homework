@@ -1,0 +1,27 @@
+# Необходимо реализовать классы животных на ферме:
+
+# Коровы, козы, овцы, свиньи;
+# Утки, куры, гуси.
+# Условия:
+
+# Должен быть один базовый класс, который наследуют все остальные животные.
+# Базовый класс должен определять общие характеристики и интерфейс.
+
+class Animals
+    weight = 0
+    height = 0
+    voice = None
+    
+    def __init__(self, weight, height, voice)
+        self.weight = weight
+        self.height = height
+        self.voice = voice
+        
+class Mammals(Animals)
+    body = milk
+    voice = "Moo/Oink!"
+    
+class Birds(Animals)
+    body = feather
+    voice = "Quack!"
+    
