@@ -17,11 +17,38 @@ class Animals
         self.height = height
         self.voice = voice
         
-class Mammals(Animals)
-    body = milk
-    voice = "Moo/Oink!"
+ class Cows(Animals)
+    body = brown
+    voice = "Moo!"
+ 
+ class Goats(Animals)
+    body = white
+    voice = "Baa!"
     
-class Birds(Animals)
-    body = feather
+ class Sheep(Animals)
+    body = grey
+    voice = "Baaa!"
+    
+ class Pigs(Animals)
+    body = pink
+    voice = "Oink!"
+    
+ class Ducks(Animals)
+    body = feather_brown
     voice = "Quack!"
+    
+ class Geese(Animals)
+    body = feather_verywhite
+    voice = "Quack!"
+    
+ class Chickens(Animals)
+    body = feather_white
+    voice = "Quack!"
+    
+cow_0 = Cows(200, 130, "Moo/Oink!")
+cow_1 = Cows(220, 140, "Moo/Oink!")
+
+duck_0 = Ducks(4, 20, "Quack!")
+
+sheep_0 = Sheep(100, 90, "Moo/Oink!")
     
